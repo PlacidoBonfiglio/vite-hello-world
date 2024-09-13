@@ -1,6 +1,6 @@
 <script>
 export default {
-  data () {
+  data() {
     return {
 
     }
@@ -10,12 +10,20 @@ export default {
 </script>
 
 <template>
-    <div id="jumbotron">
-        <h3>
-            Ciao, sono un jumbotron!
-        </h3>
-    </div>
+  <div id="jumbotron">
+    <h2>
+      Ciao, sono un jumbotron!
+    </h2>
+  </div>
 </template>
 
 <style scoped>
+#jumbotron {
+  height: 400px;
+  background-color: grey;
+}
+
+h2 {
+  line-height: 400px;
+}
 </style>
